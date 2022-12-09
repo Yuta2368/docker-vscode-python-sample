@@ -1,0 +1,15 @@
+{
+  "name": "Python Basic Project",
+  "dockerComposeFile": "compose.yml",
+  "service": "python",
+  "workspaceFolder" : "/app",
+  "extensions" : [
+    "ms-python.python"
+  ],
+  "settings" : {
+    "editor.tabSize" : 2,
+    "python.analysis.extraPaths": [
+      "/app/src/workspace/venv/lib/python3.8/site-packages/"
+  ]
+  }
+}

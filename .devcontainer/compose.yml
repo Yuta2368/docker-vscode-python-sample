@@ -1,0 +1,10 @@
+services:
+  python:
+    image: python:1.0
+    build: ./python
+    container_name: 'python1-simple'
+    stdin_open: true
+    tty: true
+    working_dir: '/app'
+    volumes:
+      - ../app:/app
